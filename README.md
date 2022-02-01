@@ -17,4 +17,4 @@ Nie. Własnoręcznie wykonana całość kodu. Oczywiście, tu i ówdzie zapytał
 # Dodatkowa dokumentacja
 
 Kontenery uruchamiają się tak jak powinny - `docker compose up -d` działa jak należy.
-![](startup.png)
+![](it_works.png)
