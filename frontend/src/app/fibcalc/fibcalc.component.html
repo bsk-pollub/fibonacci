@@ -1,0 +1,18 @@
+<input type="number" [(ngModel)]="n" />
+<button (click)="calcFib()">Policz</button> <br />
+<span>{{ currFib }}</span>
+
+<table>
+    <thead>
+        <tr>
+            <th>N</th>
+            <th>Wartość</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let hist of history">
+        <tr>
+            <td>{{hist.n}}</td>
+            <td>{{hist.value}}</td>
+        </tr>
+    </tbody>
+</table>
